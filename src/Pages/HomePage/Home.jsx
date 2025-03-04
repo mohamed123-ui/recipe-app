@@ -1,7 +1,5 @@
 import axios from "axios";
-import Tabs from "../../Components/Tabs/Tabs";
 import { useEffect, useState } from "react";
-import { TiWorld } from "react-icons/ti";
 import {  NavLink } from "react-router-dom";
 
 export default function Home() {
