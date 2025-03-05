@@ -22,9 +22,7 @@ tr td{
 tr{
   padding: 15px;
 }
-.meal:hover{
-  scale: 1.1;
-}
+
 .meal{
 
   transition: all .5s;

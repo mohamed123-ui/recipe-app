@@ -16,7 +16,7 @@ export default function App() {
     {path:"beef",element:<BeefPage />},
     {path:"productdetails/:idMeal",element:<ProductDetails />},
     {path:"area", element:<Area /> },
-    {path:"/:chicken?", element:<BeefPage/> },
+    {path:"beefPage", element:<BeefPage/> },
 
   
   ]

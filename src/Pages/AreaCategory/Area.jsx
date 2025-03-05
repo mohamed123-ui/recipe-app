@@ -53,8 +53,8 @@ const [meals, setMeals] = useState([]);
           <select
             value={country}
             onChange={(e) => setCountry(e.target.value)}
-            className="border text-xl font-[Pacifico] p-2 rounded-lg w-full bg-white shadow-md"
-          >
+            className="border cursor-pointer text-xl font-[Pacifico] p-2 rounded-lg w-full bg-white shadow-md"
+          > 
             {countries.map((item, index) => (
               <option key={index} value={item.strArea}>
                 {item.strArea}
